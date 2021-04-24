@@ -17,7 +17,7 @@ conda activate prok_genom_assanno
 conda install -c conda-forge -c bioconda -c defaults prokka
 conda install -c conda-forge -c bioconda biopython spades megahit quast fastqc trimmomatic unzip java-jdk --yes
 
-we recommend to follow the exact order of installation to avoid "Can't locate Bio/Root/Version.pm in @inc" error while running prokka
+we recommend to follow the exact order of installation in case you get "Can't locate Bio/Root/Version.pm in @inc" error while running prokka
 
 copy and paste assanno.py and assemble_nd_anno.py
 
