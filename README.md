@@ -1,7 +1,9 @@
 # Bioinformatics-Team-C 
 
 contents:
+
 assemble_nd_anno.py
+
 assanno.py
 
 A command line program that will take bacterial forward and reverse reads from illumina sequencer. The program will trim the reads, assemble the genome using spades and megahit.
