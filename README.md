@@ -10,7 +10,7 @@ The program also takes reference genome and annotation as input and compares the
 
 The resulting contigs are annotated using prokka
 
-Installation:
+Installation:\n
 
 conda create -n prok_genom_assanno
 conda activate prok_genom_assanno
