@@ -2,8 +2,8 @@
   
 #!/usr/bin/env python
 """
-assemble_anno_teamC is a command line program that takes forward (in fastq format),reverse reads (in fastq format), reference genome and reference annotation . The reads are processed with trimmomatic and a quality reports are generated using FastQC.  The paired reads from trimmomatic are used for different modes of spades and megahit assembly. Then the assemblies are evaluated using quast and the best assembly is  selected . Then the assembled genome is annotated using prokka.
-Author: TeamC (Monish,Rumana,Sakina,Ethan) ,Jessie Arce
+assanno is a command line program that takes forward reads(in fastq format),reverse reads (in fastq format), reference genome and reference annotation . The reads are processed with trimmomatic and a quality reports are generated using FastQC.  The paired reads from trimmomatic are used for different modes of spades and megahit assembly. Then the assemblies are evaluated using quast and the best assembly is  selected . Then the assembled genome is annotated using prokka.
+Author: TeamC (Monish Kumar,Rumana Mustafa,Sakina Mandviwala, Ethan R Mason) ,Jessie Arce
 """
 import sys
 import argparse
