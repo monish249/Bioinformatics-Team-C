@@ -184,8 +184,8 @@ def assemble_nd_anno(forward_reads,reverse_reads,outdir,ref_genome,ref_anno):
             
         run_prokka(ret_path,outdir) # runs prokka
         
-        command = "mv "+outdir+'_*  '+outdir+'/'
-        subprocess.call(command, shell=True)
+        command = "mv "+outdir+'_*  '+outdir+'/' 
+        subprocess.call(command, shell=True)   #moves every output folder to output directory
         
 
 
